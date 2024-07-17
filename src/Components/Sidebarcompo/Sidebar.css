@@ -1,0 +1,109 @@
+.mainsidebar{
+    display: flex;
+    background-color: #19455c;
+}
+.navbutton {
+    width: auto;
+    color: white;
+    font-size: xx-large;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: 200;
+
+}
+.LiaSearchSolid{
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.sidebarinputcompo  {
+        width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+}
+.maininputsidebar{
+    width: 50%;
+}
+.inputsidebar{
+display: flex;
+border: none;
+
+    width: 100%;
+    border-radius: 27px;
+    /* background: transparent; */
+    border: 0%;
+    /* border-color: white; */
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    padding: 8px;
+}
+
+
+.css-12w9als{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.Offcanvas {
+    width: 250px !important;
+}
+.offcanvasbody{
+    padding-left: 0px !important;
+}
+span{
+    padding-left: 10px;
+}
+.logonav {
+    font-size: 34px;
+    animation: buzz 0.3s infinite;
+    color: #184c67;
+}
+
+ @keyframes buzz {           /*logonav animation */
+    0% {
+        transform: translateX(0);
+    }
+
+    33% {
+        transform: translateX(-3px);
+    }
+
+    66% {
+        transform: translateX(3px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+.ps-menu-button{
+            transition: 0.4s;
+                padding-right: 0px !important;
+                padding-left: 0px !important;
+}
+.ps-menu-button:hover{
+    background-color: rgba(8, 80, 112, 0.8) !important;
+    color: white !important;
+
+}
+/* Specific Icon Styles */
+.AiOutlineHome,
+.BiTask,
+.BsActivity,
+.FaUserCheck,
+.IoMdNotificationsOutline,
+.IoSettingsOutline,
+.GoQuestion,
+.SiFigma,
+.IoCloudDownloadOutline,
+.IoGiftOutline,
+.MdLogout {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #000000;
+}
+

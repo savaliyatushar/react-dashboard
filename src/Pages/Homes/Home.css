@@ -1,0 +1,44 @@
+.home-color{
+    background-color:#f8fafb !important;
+}
+
+.home-card{
+    display: flex;
+        align-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 30px;
+}
+.custom-card1{
+    width: 290px;
+    height: 140px;
+}
+.card-title{
+    color: aqua;
+    
+}
+/* .card-1{
+    display: flex;
+    justify-content: end;
+}
+.income{
+    display: flex;
+    justify-content:space-around;
+}
+.FaMoneyCheckDollar{
+    font-size: 50px;
+    color: #19455c;
+}
+.content{
+        margin-top: -10px;
+            font-size: 27px;
+            padding-left: 30px;
+}
+.content p{
+    font-size: 11px;
+}
+.footer{
+
+} */

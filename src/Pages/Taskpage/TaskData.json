@@ -1,0 +1,72 @@
+[
+    {
+        "navtitle": "DL-60",
+        "task": "Alternative reCaptcha solution",
+        "icon": "MdOutlineMarkUnreadChatAlt",
+        "text": "11",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHdLZAJzeEA2iYjsrN4CEXrg8ATQ1tB04blQ&s"
+    },
+    {
+        "navtitle": "DL-61",
+        "task": "Implement user authentication",
+        "icon": "MdOutlineMarkUnreadChatAlt",
+        "text": "15",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRabpp9cRSP2RA-PsVT6watU3wUMgam3AI_ow&s"
+    },
+    {
+        "navtitle": "DL-62",
+        "task": "Design landing page",
+        "icon": "MdOutlineMarkUnreadChatAlt",
+        "text": "9",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXwIw4TUNNyavGpNgbeUnWcXS5ixK5Y9wBLo5gIBKqWRtERGay34gjqE-8MvVXhkPV9JA&usqp=CAU"
+    },
+    {
+        "navtitle": "DL-63",
+        "task": "Fix login issues",
+        "icon": "MdOutlineMarkUnreadChatAlt",
+        "text": "20",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStd0H3oI4fWkSaZkV9fsIkM1-8wKVk-yNPS3txMxcBrlouLsoyfG76i-LL49QnWBeTt5o&usqp=CAU"
+    },
+    {
+        "navtitle": "DL-64",
+        "task": "Improve dashboard UI",
+        "icon": "MdOutlineMarkUnreadChatAlt",
+        "text": "5",
+        "image": "data:image/jpeg;base64,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"
+    },
+    {
+        "navtitle": "DL-65",
+        "task": "Setup CI/CD pipeline",
+        "icon": "MdOutlineMarkUnreadChatAlt",
+        "text": "7",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC8NRolm5JyDhzeCsCA68QTFNO0jCzRXzJ-m_XNRVTST9dT2--DGwVMDjQRKerYEFPdBY&usqp=CAU"
+    },
+    {
+        "navtitle": "DL-66",
+        "task": "Optimize database queries",
+        "icon": "MdOutlineMarkUnreadChatAlt",
+        "text": "10",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwrEr4k3EmXltEFVGtd4yLDomBpMu6xGR_IsJJzDBJy7vrE0CqkDhXpIo1usgaxJKBOcA&usqp=CAU"
+    },
+    {
+        "navtitle": "DL-67",
+        "task": "Develop API endpoints",
+        "icon": "MdOutlineMarkUnreadChatAlt",
+        "text": "12",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtJcfgOAc8USRCIZQS-Bo-5eldLn6s5x8h8nY6oQuaeB6KL2hbTC-bSgNd0TTvIJaN-nY&usqp=CAU"
+    },
+    {
+        "navtitle": "DL-68",
+        "task": "Integrate third-party services",
+        "icon": "MdOutlineMarkUnreadChatAlt",
+        "text": "8",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqyj1aKz17mG_HKPnUa18le_apiqelsjg-5g&s"
+    },
+    {
+        "navtitle": "DL-69",
+        "task": "Conduct user testing",
+        "icon": "MdOutlineMarkUnreadChatAlt",
+        "text": "13",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUXXgzWOKoSPYnWf9vxKSVpmgB-f7oDRIVdg&s"
+    }
+]

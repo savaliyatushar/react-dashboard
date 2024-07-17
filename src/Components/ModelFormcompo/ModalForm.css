@@ -1,0 +1,48 @@
+.modal-content{
+    width: 445px !important;
+}
+.modal.show .modal-dialog {  
+    justify-content: center;
+}
+.modelform{
+   width: 100%;
+}
+.form{
+    padding: 1rem 1rem;
+}
+.modelinput{
+    border-radius: 0% !important;
+}
+.model-btn{
+    display: flex;
+    justify-content: end;
+}
+.modalmain-btn{
+    background-color:#19455c !important;
+    border: none !important;
+    border-radius:22px !important;
+        height: 37px;
+            width: 78px;
+}
+.cancle,
+.save{
+margin-right: 17px !important;
+}   
+.cancle-btn{
+    background-color: transparent !important;
+    color: black !important;
+    border-color: #19455c!important;
+    border-radius: 25px !important;
+}
+.cancle-btn:hover{
+    background-color: rgba(255, 0, 0, 0.699) !important;
+    color: white !important;
+}
+.modal.show .modal-dialog{
+margin: 0% !important;
+width: fit-content !important   ;
+}
+.fade.modal.show{
+    display: flex !important;
+    justify-content: center !important;
+}

@@ -1,0 +1,73 @@
+.main-table {
+    border-radius: 8px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.table-container {
+    margin: 20px;
+    overflow-x: auto;
+}
+
+.table>tbody {
+    vertical-align: middle !important;
+}
+
+.main-nav-header {
+    display: flex;
+    height: 67px;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    font-weight: bold;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: -154px !important;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0) !important;
+}
+
+.table-head th {
+    background-color:#989ea61a !important;
+    color: rgba(121, 112, 112, 0.658) !important;
+    font-size: 13px;
+}
+
+.custom-table th,
+.custom-table td {
+    text-align: center;
+    padding: 8px;
+}
+
+.custom-table th {
+    background-color: #f2f2f2;
+}
+
+.name-cell {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.profile-image {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.status-cell.completed {
+    color: green;
+}
+
+.status-cell.in-progress {
+    color: orange;
+}

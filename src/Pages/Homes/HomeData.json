@@ -1,0 +1,27 @@
+[
+    {
+    "title": "INCOME",
+    "amount": "$3240",
+    "details": "No additional income",
+    "icon": "FaMoneyCheckDollar"
+},
+{
+    "title": "EXPENSE",
+    "amount": "$1500",
+    "details": "+ $6.50 bank charges fee",
+    "icon": "LiaFileInvoiceDollarSolid"
+},
+{
+    "title": "TOTAL",
+    "amount": "$74925",
+    "details": "12% from $65934",
+    "icon": "FaStackExchange"
+},
+{
+    "title": "PAGEVIEWS",
+    "amount": "123598",
+    "details": "9.2% from 134969",
+    "icon": "MdPageview"
+}
+
+]
