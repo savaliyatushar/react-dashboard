@@ -1,9 +1,10 @@
 import React from 'react';
-import "./Notifications.css"
+import NotificationSystem from '../../Components/Notificationcompo/NotificationSystem';
+
 const Notifications = () => {
     return (
         <div>
-            <h1>this is Notifications page</h1>
+            <NotificationSystem/>
         </div>
     );
 }

@@ -1,5 +1,37 @@
 .activity-card-page {
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.activitychart canvas {
+    box-sizing: border-box !important;
+    display: block !important;
+    height: 400px !important;
+    width: 400px !important;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important; */
+}
+.main-activity-chart {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    border-radius: 8px;
+    width: auto;
+    /* background-color: rgb(255, 255, 255);     */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+/* .main-chart {
+        display: flex;
+        justify-content: center;
+        border-radius: 8px;
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+        height: 410px;
+        margin-top: 20px;
+    } */
+
+/* .activitychart {
+    height: 350px !important;
+    width: 350px !important;
+} */
+

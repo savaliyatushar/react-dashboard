@@ -1,42 +1,47 @@
   .activitycard-component {
-      height: 150px;
-      width: 300px;
-      border-radius: 8px;
-      /* margin: 16px; */
-      text-align: center;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      transition: box-shadow 0.3s ease;
+    height: 150px;
+    width: 300px;
+    border-radius: 8px;
+    /* margin: 16px; */
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
   }
 
   .activitycard-component:hover {
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
   }
-  .activity-title{
+
+  .activity-title {
     display: flex;
-        justify-content: space-between;
-        padding-top: 10px;
-        font-size: 15px;
-        color: rgba(0, 0, 0, 0.315);
+    justify-content: space-between;
+    padding-top: 10px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.315);
   }
+
   .title,
-  .number{
+  .number {
     padding-left: 15px;
     padding-right: 15px;
   }
-  .btn-chart{
+
+  .btn-chart {
     display: flex;
-        justify-content: space-between;
-        align-items: center;
-        /* margin-top  : 20px; */
-        padding-left: 15px;
-            padding-right: 15px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
-  .activity-btn{
-    border-radius:3% !important;
+
+  .activity-btn {
+    border-radius: 3% !important;
     width: 120px;
     background-color: #19455c !important;
     border: none !important;
   }
+
   /* 
   .activitycard-title {
       opacity: 10px !important;

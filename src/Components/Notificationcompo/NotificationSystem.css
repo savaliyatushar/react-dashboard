@@ -1,0 +1,39 @@
+.notification-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.notification {
+    position: relative;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #007bff;
+    /* Default background color */
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+
+.notification.info {
+    background-color: #17a2b8;
+}
+
+.notification button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}   

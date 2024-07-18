@@ -2,12 +2,12 @@ import React from 'react';
 import "./Activitycard.css"
 import Progressbar from '../ProgressBarcompo/Progressbar';
 import Buttoncompo from '../Bottoncompo/Buttoncompo';
-import Activity from '../../Pages/Activitypage/Activity';
-const Activitycard = ({ customClassName, onClick, title, linechart, now, btn, number, buttonText, second, third, fourth }) => {
+import LineCharts from "../Linechartcompo/Linechart";
+
+const Activitycard = ({ customClassName, onClick, title, linechart, now, btn, number, buttonText, showLineChart }) => {
     const handleClick = () => {
         alert("btn is working");
     };
-
 
     return (
         <div className={`activitycard-component ${customClassName}`} onClick={onClick}>
@@ -26,11 +26,12 @@ const Activitycard = ({ customClassName, onClick, title, linechart, now, btn, nu
                         onClick={handleClick}
                     />
                 </div>
-                <div>
-                    {linechart}
-                </div>
+                {showLineChart && (
+                    <div>
+                        <LineCharts />
+                    </div>
+                )}
             </div>
-
         </div>
     );
 }
