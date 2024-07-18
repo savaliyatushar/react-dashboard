@@ -63,7 +63,8 @@ function Sidebars({ onLogout }) {
                     <Sidebar>
                         <Menu>
                             <span>Menu</span>
-                            <MenuItem component={<Link to="/Homepage" />}><AiOutlineHome className='AiOutlineHome' /> Home</MenuItem>
+                            <MenuItem component={<Link to="/Homepage" />}><AiOutlineHome className='AiOutlineHome' />
+                             Home</MenuItem>
                             <MenuItem component={<Link to="/Task" />}><BiTask className='BiTask' /> Task</MenuItem>
                             <MenuItem component={<Link to="/Activity" />}><BsActivity className='BsActivity' /> Activity</MenuItem>
                             <MenuItem component={<Link to="/User" />}><FaUserCheck className='FaUserCheck' /> User</MenuItem>

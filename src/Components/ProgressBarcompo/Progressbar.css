@@ -1,0 +1,11 @@
+.Progressbar-compo{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    /* margin-top: 20px !important; */
+}
+.progress{
+    height: 11px !important ;
+}
+.progress-bar{
+    background-color: #34a3b2 !important;
+}

@@ -1,0 +1,57 @@
+  .activitycard-component {
+      height: 150px;
+      width: 300px;
+      border-radius: 8px;
+      /* margin: 16px; */
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.3s ease;
+  }
+
+  .activitycard-component:hover {
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+  .activity-title{
+    display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.315);
+  }
+  .title,
+  .number{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .btn-chart{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* margin-top  : 20px; */
+        padding-left: 15px;
+            padding-right: 15px;
+  }
+  .activity-btn{
+    border-radius:3% !important;
+    width: 120px;
+    background-color: #19455c !important;
+    border: none !important;
+  }
+  /* 
+  .activitycard-title {
+      opacity: 10px !important;
+      color: #2aad42;
+      display: flex;
+      margin-bottom: var(--bs-card-title-spacer-y);
+      color: rgb(121 112 112 / 66%) !important;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+        .activitycard-content {
+            font-size: 12px;
+            padding-left: 29px !important;
+            display: flex;
+            color: #555;
+            flex-direction: row;
+            justify-content: flex-start;
+        } */

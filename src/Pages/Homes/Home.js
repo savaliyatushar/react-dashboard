@@ -26,6 +26,7 @@ const Home = () => {
                     <Row>
                         <Col lg={5}>
                             <Tablescompo
+                            
                             />
                         </Col>
                         <Col lg={7}>

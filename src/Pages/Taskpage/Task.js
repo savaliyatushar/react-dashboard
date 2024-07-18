@@ -10,7 +10,7 @@ import ModalForm from '../../Components/ModelFormcompo/ModalForm';
 const Task = () => {
     const [modalShow, setModalShow] = useState(false);
     return (
-        <div>
+        <div className='home-color'>
             <div>
                 <div className='task-head'>
                     <h2>Task Board</h2>
