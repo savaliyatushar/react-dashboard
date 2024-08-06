@@ -7,20 +7,20 @@ import { FaStackExchange } from "react-icons/fa";
 import CountUp from 'react-countup';
 
 const Cardcompo = ({ title, amount, content, footer, icon, imageSrc, customClassName, onClick }) => {
-    
+
     const icons = {
         FaMoneyCheckDollar: <FaMoneyCheckDollar />,
         LiaFileInvoiceDollarSolid: <LiaFileInvoiceDollarSolid />,
         FaStackExchange: <FaStackExchange />,
         MdPageview: <MdPageview />
-    };
+    };  
 
     return (
         <div className={`card-component ${customClassName}`} onClick={onClick}>
-            {/* <img src={imageSrc} alt={title} className="card-image" /> */}
+            {imageSrc && <img src={imageSrc} alt={title} className="card-image" />}
             <h6 className="card-title">
                 {title}
-                <span className='icons'>  {icons[icon]} </span>
+                <span className='icons'>{icons[icon]}</span>
             </h6>
             <span className="card-amount">
                 <CountUp end={parseFloat(amount.replace(/[^0-9.-]+/g, ""))} duration={3} prefix={amount.includes('$') ? '$' : ''} />
