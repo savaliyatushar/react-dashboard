@@ -13,7 +13,7 @@ const Cardcompo = ({ title, amount, content, footer, icon, imageSrc, customClass
         LiaFileInvoiceDollarSolid: <LiaFileInvoiceDollarSolid />,
         FaStackExchange: <FaStackExchange />,
         MdPageview: <MdPageview />
-    };  
+    };
 
     return (
         <div className={`card-component ${customClassName}`} onClick={onClick}>

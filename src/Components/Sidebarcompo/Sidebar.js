@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import "./Sidebar.css";
+import "./Sidebar.css"
 import { Link } from 'react-router-dom';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { IoMdMenu } from "react-icons/io";
